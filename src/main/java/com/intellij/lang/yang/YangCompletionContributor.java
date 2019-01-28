@@ -47,6 +47,7 @@ public class YangCompletionContributor extends CompletionContributor {
                         resultSet.addElement(LookupElementBuilder.create("default"));
                         resultSet.addElement(LookupElementBuilder.create("description"));
                         resultSet.addElement(LookupElementBuilder.create("enum"));
+                        resultSet.addElement(LookupElementBuilder.create("enumeration"));
                         resultSet.addElement(LookupElementBuilder.create("error-app_tag"));
                         resultSet.addElement(LookupElementBuilder.create("error-message"));
                         resultSet.addElement(LookupElementBuilder.create("extension"));

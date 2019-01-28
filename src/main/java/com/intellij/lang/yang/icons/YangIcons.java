@@ -20,6 +20,6 @@ import com.intellij.openapi.util.IconLoader;
 import javax.swing.*;
 
 public class YangIcons {
-    public static final Icon FILE = IconLoader.getIcon("/icons/yang-16x16.png");
+    public static final Icon ICON = IconLoader.getIcon("/icons/yang-16x16.png");
 }
 

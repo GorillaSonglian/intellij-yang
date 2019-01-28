@@ -150,6 +150,7 @@ public interface YangTypes {
   IElementType YANG_DEVIATE_KEYWORD = new YangTokenType("DEVIATE_KEYWORD");
   IElementType YANG_DEVIATION_KEYWORD = new YangTokenType("DEVIATION_KEYWORD");
   IElementType YANG_ENUM_KEYWORD = new YangTokenType("ENUM_KEYWORD");
+  IElementType YANG_ENUMERATION_KEYWORD = new YangTokenType("ENUMERATION_KEYWORD");
   IElementType YANG_ERROR_APP_TAG_KEYWORD = new YangTokenType("ERROR_APP_TAG_KEYWORD");
   IElementType YANG_ERROR_MESSAGE_KEYWORD = new YangTokenType("ERROR_MESSAGE_KEYWORD");
   IElementType YANG_EXTENSION_KEYWORD = new YangTokenType("EXTENSION_KEYWORD");

@@ -76,6 +76,7 @@ Identifier = [/.a-zA-Z_0-9\-][a-zA-Z0-9_\-.:]*
   "default"               { yybegin(VALUE_MODE); return YANG_DEFAULT_KEYWORD; }
   "description"           { yybegin(VALUE_MODE); return YANG_DESCRIPTION_KEYWORD; }
   "enum"                  { yybegin(VALUE_MODE); return YANG_ENUM_KEYWORD; }
+  "enumeration"           { yybegin(VALUE_MODE); return YANG_ENUMERATION_KEYWORD; }
   "error-app_tag"         { yybegin(VALUE_MODE); return YANG_ERROR_APP_TAG_KEYWORD; }
   "error-message"         { yybegin(VALUE_MODE); return YANG_ERROR_MESSAGE_KEYWORD; }
   "extension"             { yybegin(VALUE_MODE); return YANG_EXTENSION_KEYWORD; }

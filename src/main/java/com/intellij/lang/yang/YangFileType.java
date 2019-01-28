@@ -53,6 +53,6 @@ public class YangFileType extends LanguageFileType {
     @Nullable
     @Override
     public Icon getIcon() {
-        return YangIcons.FILE;
+        return YangIcons.ICON;
     }
 }
