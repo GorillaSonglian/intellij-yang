@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0df28672-8def-4b6e-9027-23d4ec7dcc7c" name="Default Changelist" comment="" />
+    <list default="true" id="0df28672-8def-4b6e-9027-23d4ec7dcc7c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/yang-sandbox/config/options/recentProjects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/yang-sandbox/config/options/recentProjects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/yang-sandbox/config/options/usage.statistics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/yang-sandbox/config/options/usage.statistics.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/yang-sandbox/config/options/window.manager.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/yang-sandbox/config/options/window.manager.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/yang-sandbox/system/LocalHistory/changes.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/build/yang-sandbox/system/LocalHistory/changes.storageData" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/yang-sandbox/system/LocalHistory/changes.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/build/yang-sandbox/system/LocalHistory/changes.storageRecordIndex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/yang-sandbox/system/caches/content.dat.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/build/yang-sandbox/system/caches/content.dat.storageData" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/yang-sandbox/system/caches/content.dat.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/build/yang-sandbox/system/caches/content.dat.storageRecordIndex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/yang-sandbox/system/caches/contentHashes.dat" beforeDir="false" afterPath="$PROJECT_DIR$/build/yang-sandbox/system/caches/contentHashes.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/yang-sandbox/system/caches/contentHashes.dat.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/yang-sandbox/system/caches/contentHashes.dat.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/yang-sandbox/system/caches/contentHashes.dat.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/yang-sandbox/system/caches/contentHashes.dat.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/yang-sandbox/system/caches/contentHashes.dat_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/yang-sandbox/system/caches/contentHashes.dat_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/yang-sandbox/system/caches/records.dat" beforeDir="false" afterPath="$PROJECT_DIR$/build/yang-sandbox/system/caches/records.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/yang-sandbox/system/workspace/k8s.13198b6d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/yang-sandbox/system/workspace/k8s.13198b6d.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/intellij/lang/yang/formatter/YangFormatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/intellij/lang/yang/formatter/YangFormatter.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -94,13 +110,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/grammars/Yang.bnf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1860">
-              <caret line="124" column="127" selection-start-line="124" selection-start-column="127" selection-end-line="124" selection-end-column="127" />
+            <state relative-caret-position="-126">
+              <caret line="123" column="80" lean-forward="true" selection-start-line="123" selection-start-column="80" selection-end-line="123" selection-end-column="80" />
               <folding>
                 <element signature="e#0#490#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/intellij/lang/yang/formatter/YangFormatter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#727#728#0" expanded="true" />
+                <element signature="e#754#755#0" expanded="true" />
+                <element signature="e#871#872#0" expanded="true" />
+                <element signature="e#898#899#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -110,7 +142,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/intellij/lang/yang/psi/psi/YangTypeBodyStmts.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="193">
-              <caret line="31" column="11" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+              <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -119,20 +151,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/intellij/lang/yang/psi/psi/impl/YangTypeBodyStmtsImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="28">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/intellij/lang/yang/psi/YangTypes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-450">
-              <caret line="485" column="53" selection-start-line="485" selection-start-column="53" selection-end-line="485" selection-end-column="53" />
-              <folding>
-                <element signature="e#0#26646#0" expanded="true" />
-                <element signature="imports" expanded="true" />
-              </folding>
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
             </state>
           </provider>
         </entry>
@@ -168,6 +187,9 @@
       <find>enum_specification</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -178,6 +200,7 @@
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/plugin.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/intellij/lang/yang/icons/YangIcons.java" />
         <option value="$PROJECT_DIR$/grammars/Yang.bnf" />
+        <option value="$PROJECT_DIR$/src/main/java/com/intellij/lang/yang/formatter/YangFormatter.java" />
       </list>
     </option>
   </component>
@@ -185,6 +208,7 @@
     <option name="width" value="714" />
     <option name="height" value="900" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -298,6 +322,18 @@
               <item name="yang-plugin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="intellij" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+              <item name="yang" type="462c0819:PsiDirectoryNode" />
+              <item name="formatter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yang-plugin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yang-plugin" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -319,7 +355,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548741153601" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548741794465" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -500,15 +536,16 @@
       <option name="presentableId" value="Default" />
       <updated>1548666595145</updated>
       <workItem from="1548666600815" duration="3996000" />
-      <workItem from="1548739665400" duration="1561000" />
+      <workItem from="1548739665400" duration="1976000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5557000" />
+    <option name="totallyTimeSpent" value="5972000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2539342" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -721,23 +758,37 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/intellij/lang/yang/psi/psi/impl/YangTypeBodyStmtsImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/intellij/lang/yang/psi/psi/YangTypeBodyStmts.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="193">
-          <caret line="31" column="11" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+          <caret line="31" column="11" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/grammars/Yang.bnf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1860">
-          <caret line="124" column="127" selection-start-line="124" selection-start-column="127" selection-end-line="124" selection-end-column="127" />
+        <state relative-caret-position="-126">
+          <caret line="123" column="80" lean-forward="true" selection-start-line="123" selection-start-column="80" selection-end-line="123" selection-end-column="80" />
           <folding>
             <element signature="e#0#490#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/intellij/lang/yang/formatter/YangFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#727#728#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
           </folding>
         </state>
       </provider>
