@@ -5,8 +5,8 @@
 
   psiClassPrefix="Yang"
   psiImplClassSuffix="Impl"
-  psiPackage="com.intellij.lang.psi"
-  psiImplPackage="com.intellij.lang.psi.impl"
+  psiPackage="com.intellij.lang.yang.psi.psi"
+  psiImplPackage="com.intellij.lang.yang.psi.psi.impl"
 
   elementTypeHolderClass="com.intellij.lang.yang.psi.YangTypes"
   elementTypePrefix="YANG_"
@@ -124,7 +124,7 @@ fraction_digits_stmt ::= FRACTION_DIGITS_KEYWORD string stmtend
 decimal64_specification ::= (numerical_restrictions? (identifier_stmt)* fraction_digits_stmt | fraction_digits_stmt (identifier_stmt)* numerical_restrictions?)
 range_stmt ::= RANGE_KEYWORD string (SEMICOLON | (LEFT_BRACE  (identifier_stmt |error_message_stmt | error_app_tag_stmt | description_stmt | reference_stmt )* RIGHT_BRACE))
 numerical_restrictions ::= range_stmt
-type_body_stmts ::= (identifier_stmt)* (numerical_restrictions | decimal64_specification | string_restrictions | enum_specification | leafref_specification | identityref_specification | instance_identifier_specification | bits_specification | union_specification) (identifier_stmt)*
+type_body_stmts ::= (identifier_stmt)* (numerical_restrictions | enum_specification | string_restrictions | decimal64_specification | leafref_specification | identityref_specification | instance_identifier_specification | bits_specification | union_specification) (identifier_stmt)*
 type_stmt ::= TYPE_KEYWORD string (SEMICOLON | (LEFT_BRACE  type_body_stmts RIGHT_BRACE))
 typedef_stmt ::= TYPEDEF_KEYWORD string LEFT_BRACE  (identifier_stmt | type_stmt | units_stmt | default_stmt | status_stmt | description_stmt | reference_stmt )+ RIGHT_BRACE
 if_feature_stmt ::= IF_FEATURE_KEYWORD string stmtend

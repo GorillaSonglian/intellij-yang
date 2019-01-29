@@ -1,0 +1,42 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="recentPaths">
+      <list>
+        <option value="$USER_HOME$/Code/IdeaProjects/k8s" />
+      </list>
+    </option>
+    <option name="openPaths">
+      <list>
+        <option value="$USER_HOME$/Code/IdeaProjects/k8s" />
+      </list>
+    </option>
+    <option name="lastPath" value="$USER_HOME$/Code/IdeaProjects/k8s" />
+    <option name="pid" value="" />
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/Code/IdeaProjects/k8s">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-183.4886.37" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1548740989922" />
+              <option name="buildTimestamp" value="1545062540269" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Code/IdeaProjects/yang-plugin">
+          <value>
+            <RecentProjectMetaInfo>
+              <option name="build" value="IC-183.4886.37" />
+              <option name="productionCode" value="IC" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="projectOpenTimestamp" value="1548740217220" />
+              <option name="buildTimestamp" value="1545062550811" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>

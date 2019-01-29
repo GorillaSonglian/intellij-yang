@@ -1,0 +1,33 @@
+<application>
+  <component name="ActionsCollector">
+    <counts>
+      <entry action="EditorEscape" count="1" />
+      <entry action="Find" count="3" />
+      <entry action="WelcomeScreen.OpenProject" count="4" />
+    </counts>
+  </component>
+  <component name="FUSApplicationUsageTrigger">
+    <session id="655482535">
+      <usages-collector id="statistics.lifecycle.app">
+        <usage id="ide.start" value="5" />
+        <usage id="ide.error" value="44">
+          <context>
+            <entry key="data_1" value="OOM:false" />
+            <entry key="data_2" value="mappingFailed:false" />
+            <entry key="data_3" value="pluginId:unknown" />
+          </context>
+        </usage>
+        <usage id="ide.close" value="5" />
+      </usages-collector>
+      <usages-collector id="statistics.ui.tips">
+        <usage id="shown.automatically" value="2" />
+      </usages-collector>
+    </session>
+  </component>
+  <component name="ToolWindowsCollector">
+    <counts>
+      <entry toolWindow="Project by Activation" count="1" />
+    </counts>
+  </component>
+  <component name="UsagesStatistic" show-notification="false" />
+</application>

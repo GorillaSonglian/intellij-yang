@@ -1,0 +1,18 @@
+<idea-plugin>
+  <change-notes>
+      Add change notes here.&lt;br&gt;
+      &lt;em&gt;most HTML tags may be used&lt;/em&gt;</change-notes>
+  <idea-version since-build="183.4886" until-build="183.*"/>
+  <id>org.jetbrains</id>
+  <name>Hello Action Project</name>
+  <version>1.0-SNAPSHOT</version>
+  <vendor email="dummy" url="dummy">dummy</vendor>
+  <depends>com.intellij.modules.lang</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <fileTypeFactory implementation="com.intellij.lang.yang.YangFileTypeFactory"/>
+    <lang.parserDefinition language="Yang" implementationClass="com.intellij.lang.yang.YangParserDefinition"/>
+    <lang.syntaxHighlighterFactory key="Yang" implementationClass="com.intellij.lang.yang.editor.YangSyntaxHighlighterFactory"/>
+    <colorSettingsPage implementation="com.intellij.lang.yang.editor.YangColorSettingsPage"/>
+    <completion.contributor language="Yang" implementationClass="com.intellij.lang.yang.YangCompletionContributor"/>
+  </extensions>
+</idea-plugin>

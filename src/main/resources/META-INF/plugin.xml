@@ -1,0 +1,17 @@
+<idea-plugin>
+    <id>org.jetbrains</id>
+    <name>Hello Action Project</name>
+    <version>0.0.1</version>
+    <vendor email="dummy" url="dummy">dummy</vendor>
+
+    <depends>com.intellij.modules.lang</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <fileTypeFactory implementation="com.intellij.lang.yang.YangFileTypeFactory"/>
+        <lang.parserDefinition language="Yang" implementationClass="com.intellij.lang.yang.YangParserDefinition"/>
+        <lang.syntaxHighlighterFactory key="Yang" implementationClass="com.intellij.lang.yang.editor.YangSyntaxHighlighterFactory"/>
+        <colorSettingsPage implementation="com.intellij.lang.yang.editor.YangColorSettingsPage"/>
+        <completion.contributor language="Yang" implementationClass="com.intellij.lang.yang.YangCompletionContributor"/>
+    </extensions>
+
+</idea-plugin>

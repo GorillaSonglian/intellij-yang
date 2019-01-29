@@ -43,7 +43,7 @@ public class YangColorSettingsPage implements ColorSettingsPage {
     @Nullable
     @Override
     public Icon getIcon() {
-        return YangIcons.FILE;
+        return YangIcons.ICON;
     }
 
     @NotNull
