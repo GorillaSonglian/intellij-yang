@@ -20,6 +20,7 @@ public class YangFormatter implements FormattingModelBuilder {
     @Nullable
     @Override
     public TextRange getRangeAffectingIndent(PsiFile file, int offset, ASTNode elementAtOffset) {
+        System.out.println(offset);
         return null;
     }
 
